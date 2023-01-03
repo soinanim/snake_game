@@ -42,7 +42,7 @@ function update() {
   // clear screen
   createRect(0, 0, board.width, board.height);
 
-  if (gameOver) {
+  if (isGameOver) {
     // game end screen
     createText(
       'Game Over',
