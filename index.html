@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Snake game</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -13,31 +14,13 @@
       rel="stylesheet"
     />
 
-    <style>
-      body {
-        background-color: black;
-        padding-top: 2rem;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        font-family: 'Roboto Mono', monospace;
-      }
+    <link rel="stylesheet" href="style.css" />
 
-      h1 {
-        color: lime;
-        margin-bottom: 2.5rem;
-      }
-
-      canvas {
-        border: 3px solid lime;
-      }
-    </style>
+    <script defer src="game.js"></script>
   </head>
   <body>
     <h1>Snake game</h1>
 
     <canvas id="board"></canvas>
-
-    <script src="game.js"></script>
   </body>
 </html>
